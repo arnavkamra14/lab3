@@ -29,11 +29,11 @@ public class ArrayTests {
     int[] expected = { 7, 5, 3, 1 };
     assertArrayEquals(expected, ArrayExamples.reversed(input1));
   }
+
+  @Test
+  public void sameValueAverage() {
+    double[] input1 = { 1, 1, 1, 2, 4 };
+    double expected = 4;
+    assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.0);
+  }
 }
-/*
- * @Test
- * public void testReversedSolo() {
- * 
- * }
- * }
- */
