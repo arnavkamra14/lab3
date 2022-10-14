@@ -17,9 +17,4 @@ public class ListTests {
 
     }
 
-    @Test
-    public void mergeTest() {
-
-    }
-
 }
