@@ -5,12 +5,6 @@ interface StringChecker {
   boolean checkString(String s);
 }
 
-class IsHello implements StringChecker {
-  public boolean checkString(String s) {
-    return (s.contains("Hello"));
-  }
-}
-
 class ListExamples {
 
   // Returns a new list that has all the elements of the input list for which
@@ -46,7 +40,7 @@ class ListExamples {
     }
     while (index2 < list2.size()) {
       result.add(list2.get(index2));
-      index1 += 1;
+      index2 += 1;
     }
     return result;
   }
